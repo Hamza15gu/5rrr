@@ -7,9 +7,6 @@ pluginManagement {
 }
 
 dependencyResolutionManagement {
-    def mode = RepositoriesMode
-        .FAIL_ON_PROJECT_REPOS
-    repositoriesMode.set(mode)
     repositories {
         google()
         mavenCentral()
